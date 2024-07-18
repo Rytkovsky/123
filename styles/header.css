@@ -1,0 +1,38 @@
+header {
+  padding: 24px 0;
+  border: 1px solid #e6e6e6;
+}
+
+.nav__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav {
+  max-width: 411px;
+  width: 100%;
+  color: #48555b;
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list__item {
+  transition: 0.5s;
+}
+
+.list__item:hover {
+  color: #d3d3d3;
+}
+
+@media screen and (max-width: 450px) {
+  .list {
+    flex-direction: column;
+    align-items: end;
+  }
+}

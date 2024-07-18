@@ -1,0 +1,64 @@
+.greeting__photo {
+  height: 769px;
+}
+
+.background__greeting-photo {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  object-fit: cover;
+  object-position: center;
+}
+
+.white__konstrukt-logo {
+  position: absolute;
+  top: 41px;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+.greeting__photo-wrapper {
+  position: absolute;
+  top: 360px;
+  transform: translateX(-50%);
+  text-align: center;
+  left: 50%;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 3px;
+}
+.greeting__photo-title {
+  font-size: 60px;
+  font-family: "Bebas Neue";
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.greeting__photo-description {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.scroll__down-text {
+  text-align: center;
+  position: absolute;
+  top: 683px;
+  left: 50%;
+  transform: translatex(-50%);
+  font-family: "Open Sans";
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 3.7px;
+}
+
+@media screen and (max-width: 650px) {
+  .greeting__photo-wrapper {
+    top: 220px;
+  }
+
+  .greeting__photo-title{
+    font-size: 45px;
+  }
+}
